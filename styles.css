@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Mono:ital@0;1&family=Inconsolata:wdth@75&family=JetBrains+Mono:ital@0;1&family=Yanone+Kaffeesatz&display=swap');
+
+body {
+    font-family: 'Barlow Condensed', 'Helvetica Neue', Helvetica, Aptos, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: normal;
+    margin-top: 0.5em;
+}
+
+h1,
+h2 {
+    margin-bottom: 0.5em;
+}
+
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0em;
+}
+
+p {
+    margin-top: 0.5em;
+}
+
+ol,
+ul {
+    margin: 0em;
+}
+
+a {
+    color: #0073E6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+dt {
+    font-weight: bold;
+}
+
+.footnote {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 0.7em;
+    color: #777;
+}
+
+.remark-code,
+.remark-inline-code {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "width" 75;
+}
+
+.remark-slide-content {
+    font-size: 20px;
+    padding: 0em 1em;
+}
+
+.remark-slide-content .remark-code {
+    font-size: 0.9em;
+}
+
+.footnote {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    font-size: 0.7em;
+    color: #777;
+}
+
+.center-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    max-height: 400px;
+}
+
+.highlight {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.columns {
+    display: flex;
+
+    /* flex-wrap: wrap-reverse; */
+
+    justify-content: space-between;
+    column-gap: 40px;
+    padding-inline-start: 0px;
+
+    /* padding: 20px; */
+    /* margin: 20px; */
+}
+
+.columns>* {
+    flex: 1;
+
+    /* flex: 48%;
+    width: 100%; */
+
+    /* flex-basis: 48%; */
+    /* padding: 20px; */
+    /* margin: 20px; */
+}
+
+.dimmed {
+    color: #777;
+}
+
+.big-text {
+    font-size: 1.5em;
+}
+
+.highlight {
+    color: #D9534F;
+}
+
+.center {
+    text-align: center;
+}
+
+@page {
+    size: 1280px 720px;
+    margin: 0;
+}
+
+@media print {
+    .remark-slide-scaler {
+        width: 100% !important;
+        height: 100% !important;
+        transform: scale(1) !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+}
