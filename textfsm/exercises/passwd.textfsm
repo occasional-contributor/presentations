@@ -1,0 +1,10 @@
+Value Required USERNAME ([^:]+)
+Value Required PASSWORD_PLACEHOLDER ([^:]*)
+Value Required UID (\d+)
+Value Required GID (\d+)
+Value GECOS ([^:]*)
+Value Required HOME_DIR ([^:]+)
+Value Required SHELL (.*?)
+
+Start
+  ^${USERNAME}:${PASSWORD_PLACEHOLDER}:${UID}:${GID}:${GECOS}:${HOME_DIR}:${SHELL} -> Record

@@ -1,0 +1,5 @@
+root:x:0:
+adm:x:4:syslog,jdoe
+sudo:x:27:jdoe
+jdoe:x:1000:
+docker:x:999:jdoe,anotheruser
