@@ -1,0 +1,7 @@
+Value Required GROUP_NAME ([^:]+)
+Value Required PASSWORD_PLACEHOLDER ([^:]*)
+Value Required GID (\d+)
+Value MEMBERS (.*)
+
+Start
+  ^${GROUP_NAME}:${PASSWORD_PLACEHOLDER}:${GID}:${MEMBERS} -> Record

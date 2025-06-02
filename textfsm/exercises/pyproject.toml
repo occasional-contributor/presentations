@@ -1,0 +1,14 @@
+[project]
+name = "textfsm-presentation"
+version = "0.1.0"
+description = "textfsm presentation"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "textfsm >=2.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipython >=8.18.1",
+]
