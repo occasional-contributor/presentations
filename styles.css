@@ -50,38 +50,27 @@ dt {
     font-weight: bold;
 }
 
-.footnote {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    font-size: 0.7em;
-    color: #777;
-}
-
 .remark-code,
 .remark-inline-code {
     font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
+    /* font-size: 0.9em; */
     font-style: normal;
     font-variation-settings:
         "width" 75;
 }
 
 .remark-slide-content {
-    font-size: 20px;
+    font-size: 24px;
     padding: 0em 1em;
-}
-
-.remark-slide-content .remark-code {
-    font-size: 0.9em;
 }
 
 .footnote {
     position: absolute;
     bottom: 1em;
     left: 1em;
-    font-size: 0.7em;
+    font-size: 1em;
     color: #777;
 }
 
@@ -94,7 +83,7 @@ dt {
 }
 
 .highlight {
-    color: #e74c3c;
+    color: #D9534F;
     font-weight: bold;
 }
 
@@ -130,10 +119,6 @@ dt {
     font-size: 1.5em;
 }
 
-.highlight {
-    color: #D9534F;
-}
-
 .center {
     text-align: center;
 }
@@ -151,4 +136,14 @@ dt {
         top: 0 !important;
         left: 0 !important;
     }
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f0f0f0;
+    /* Light gray for even rows */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
+    /* White for odd rows (optional, this is default) */
 }
